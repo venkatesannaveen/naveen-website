@@ -15,6 +15,12 @@ class Sidebar extends React.Component {
                 <p class='nav-link'>Photos</p>
                 <p class='nav-link'>Blog</p>
 
+                <a href='https://www.linkedin.com/in/naveenvenkatesan/' target='_blank' class='fa fa-linkedin'></a>
+                <a href='https://medium.com/@naveen.venkatesan' target='_blank' class='fa fa-medium'></a>
+                <a href='https://github.com/naveenv92' target='_blank' class='fa fa-github-alt'></a>
+                <a href='mailto:naveen.venkatesan@gmail.com' target='_blank' class='fa fa-envelope-o'></a>
+
+                <p style={{'color': 'gray'}}>&copy; 2020 Naveen Venkatesan</p>
             </div>
         );
     }

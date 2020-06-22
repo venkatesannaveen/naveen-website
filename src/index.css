@@ -23,6 +23,19 @@ code {
     border-right: 1px solid rgba(128, 128, 128, 0.5);
 }
 
+.fa {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 100%;
+}
+
+.fa:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .main-pic {
     width: 30%;
     border-radius: 100%;
