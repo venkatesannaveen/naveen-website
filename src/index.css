@@ -12,6 +12,45 @@ code {
     monospace;
 }
 
+.navbar-container {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: lightgray;
+}
+
+.navbar-img {
+    display: inline-block;
+    margin-top: 1vh;
+    margin-left: 2vw;
+    height: 6vh;
+    border-radius: 100%;
+}
+
+.navbar-title {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 10px;
+    line-height: 8vh;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar-home {
+    display: block;
+    float: left;
+}
+
+.navbar-hamburger {
+    display: block;
+    float: right;
+}
+
+
 .sidebar-container {
     position: fixed;
     top: 0;
@@ -32,8 +71,25 @@ code {
     border-radius: 100%;
 }
 
+.ai {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 100%;
+}
+
 .fa:hover {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.ai:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggle {
+    border-radius: 3px;
 }
 
 .main-pic {
@@ -59,9 +115,10 @@ code {
 
 .content-container {
     position: relative;
+    z-index: 1;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 5vh;
+    margin-top: 15vh;
     margin-bottom: 5vh;
     width: 80vw;
 }
@@ -114,6 +171,10 @@ code {
 }
 
 @media (min-width: 950px) {
+    .navbar-container {
+        display: none;
+    }
+    
     .sidebar-container {
         margin-left: 10vw;
         left: 0;
@@ -121,6 +182,7 @@ code {
 
     .content-container {
         margin-left: 10vw;
+        margin-top: 5vh;
         left: 300px;
         margin-right: 10vw;
         margin-top: 5vh;
