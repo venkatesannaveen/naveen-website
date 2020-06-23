@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutPhoto from '../img/aboutme.jpg';
 
 class AboutMe extends React.Component {
     render () {
@@ -6,7 +7,7 @@ class AboutMe extends React.Component {
             <div class='content-container'>
                 <h1 class='section-title'>About Me</h1>
                 
-                <img src='img/aboutme.jpg' class='banner-pic' />
+                <img src={aboutPhoto} class='banner-pic' />
                 
                 <h2 class='section-subtitle'>Education</h2>
                 <h3 class='section-subsubtitle'>University of California, Santa Barbara | 2015 - 2020</h3>
