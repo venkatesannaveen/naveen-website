@@ -1,12 +1,11 @@
 import React from 'react';
-
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class Sidebar extends React.Component {
     render () {
         return (
             <div class='sidebar-container'>
-                <img src='img/headshot.jpg' class='main-pic' />
+                <img class='main-pic' src='img/headshot.jpg' />
                 <h1 class='title-name'>Naveen <strong>Venkatesan</strong></h1>
                 <h3 class='title-subtitle'>Chabinyc Research Group<br />UC Santa Barbara</h3>
                 
