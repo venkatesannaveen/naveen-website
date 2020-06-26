@@ -5,10 +5,11 @@ import aboutPhoto from '../img/aboutme.jpg';
 class AboutMe extends React.Component {
     render () {
         return (
-            <Helmet>
-                <title>Naveen Venkatesan | About Me</title>
-            </Helmet>
             <div class='content-container'>
+                <Helmet>
+                <title>Naveen Venkatesan | About Me</title>
+                </Helmet>
+                
                 <h1 class='section-title'>About Me</h1>
                 
                 <img src={aboutPhoto} class='banner-pic' />

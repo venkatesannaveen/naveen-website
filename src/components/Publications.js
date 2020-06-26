@@ -5,10 +5,11 @@ import PubCard from './PubCard';
 class Publications extends React.Component {
     render () {
         return (
-            <Helmet>
-                <title>Naveen Venkatesan | Publications</title>
-            </Helmet>
             <div class='content-container'>
+                <Helmet>
+                <title>Naveen Venkatesan | Publications</title>
+                </Helmet>
+
                 <h1 class='section-title'>Publications</h1>
                 <p class='section-text'>Click on any of the entries for a link to the publication. Link to Google Scholar profile.</p>
                 <h2 class='section-subtitle'>2020</h2>

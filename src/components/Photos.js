@@ -4,10 +4,11 @@ import { Helmet } from 'react-helmet';
 class Photos extends React.Component {
     render () {
         return (
-            <Helmet>
-                <title>Naveen Venkatesan | Photos</title>
-            </Helmet>
             <div class='content-container'>
+                <Helmet>
+                <title>Naveen Venkatesan | Photos</title>
+                </Helmet>
+
                 <h1 class='section-title'>Photos</h1>
                 
                 <p class='section-text'>

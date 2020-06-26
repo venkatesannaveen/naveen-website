@@ -1,9 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 class Home extends React.Component {
     render () {
         return (
             <div class='content-container'>
+                <Helmet>
+                    <title>Naveen Venkatesan | Home</title>    
+                </Helmet>
+
                 <h1 class='home-title' style={{'color': '#cc7000'}}>Hi, I'm Naveen!</h1>
                 <h3 class='home-subtitle' style={{'color': '#0081cc'}}>Materials Scientist | Data Enthusiast | Writer</h3>
                 
