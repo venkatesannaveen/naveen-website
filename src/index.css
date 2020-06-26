@@ -219,6 +219,15 @@ code {
     margin-bottom: 0;
 }
 
+.pub-card {
+    transition: transform 0.3s ease-in;
+}
+
+.pub-card:hover {
+    transform: scale(1.05);
+    background-color: rgb(240, 240, 240);
+}
+
 @media (min-width: 950px) {
     .navbar-container {
         display: none;
