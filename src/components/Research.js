@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import researchPhoto from '../img/research.jpg';
 
 class Research extends React.Component {
     render () {
         return (
+            <Helmet>
+                <title>Naveen Venkatesan | Research</title>
+            </Helmet>
             <div class='content-container'>
                 <h1 class='section-title'>Research</h1>
                 

@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import aboutPhoto from '../img/aboutme.jpg';
 
 class AboutMe extends React.Component {
     render () {
         return (
+            <Helmet>
+                <title>Naveen Venkatesan | About Me</title>
+            </Helmet>
             <div class='content-container'>
                 <h1 class='section-title'>About Me</h1>
                 
