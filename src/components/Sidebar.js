@@ -1,6 +1,6 @@
 import React from 'react';
 import headshot from '../img/headshot.jpg';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Sidebar extends React.Component {
     render () {
