@@ -221,11 +221,19 @@ code {
 
 .pub-card {
     transition: transform 0.3s ease-in;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.12), 0 0 8px rgba(0,0,0,0.12), 0 0 16px rgba(0,0,0,0.12), 0 0 32px rgba(0,0,0,0.12);
+
 }
 
 .pub-card:hover {
     transform: scale(1.05);
-    background-color: rgb(240, 240, 240);
+    opacity: 0.8;
 }
 
 @media (min-width: 950px) {
@@ -277,5 +285,10 @@ code {
     .section-text {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .pub-card {
+        margin-left: 10%;
+        width: 80%;
     }
 }
