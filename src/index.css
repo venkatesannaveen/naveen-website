@@ -153,6 +153,7 @@ code {
     margin-top: 5vh;
     margin-left: 10vw;
     margin-right: 10vw;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,25 +161,27 @@ code {
 }
 
 .home-button {
-    font-family: 'Muli';
+    display: inline;
     font-size: 1rem;
     font-weight: 700;
-    width: 35%;
+    text-align: center;
+    line-height: 5vh;
+    vertical-align: middle;
+    width: 50%;
     margin-left: 5px;
     margin-right: 5px;
     height: 5vh;
     background-color: #008CBA;
     color: white;
-    border: none;
-    border-radius: 1vh;
-    transition: background-color 0.3s;
+    border-radius: 10px;
+    border: 2px solid #008CBA;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .home-button:hover {
+    transform: scale(1.03);
     background-color: white;
     color: black;
-    border: 2px solid #008CBA;
-    cursor: pointer;
 }
 
 .home-button:active {
@@ -227,12 +230,38 @@ code {
     margin-bottom: 20px;
     width: 90%;
     border-radius: 5px;
-    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.12), 0 0 8px rgba(0,0,0,0.12), 0 0 16px rgba(0,0,0,0.12), 0 0 32px rgba(0,0,0,0.12);
+    box-shadow: 0 10px 10px -10px #777, 0 0 10px -3px #777;
 
 }
 
 .pub-card:hover {
     transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.photo-container {
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.photo-card {
+    overflow: hidden;
+    display: inline-block;
+    width: 48%;
+    margin: 1% 1% 1% 1%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -5px #777, 0 0 10px -3px #777;
+}
+
+.photo-img {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.photo-img:hover {
+    transform: scale(1.1);
     opacity: 0.8;
 }
 
@@ -258,7 +287,12 @@ code {
     }
 
     .home-button-div {
+        height: 7vh;
         flex-direction: row;
+    }
+
+    .home-button {
+        width: 35%;
     }
 
     .banner-pic {
@@ -290,5 +324,14 @@ code {
     .pub-card {
         margin-left: 10%;
         width: 80%;
+    }
+
+    .photo-container {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .photo-card {
+        width: 23%;
     }
 }

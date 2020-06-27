@@ -25,9 +25,9 @@ class Home extends React.Component {
                 </p>
 
                 <div class='home-button-div'>
-                    <button class='home-button'>Resume</button>
-                    <button class='home-button'>Curriculum Vitae</button>
-                    <button class='home-button'>Connect on LinkedIn</button>
+                    <div class='home-button'>Resume</div>
+                    <div class='home-button'>Curriculum Vitae</div>
+                    <div class='home-button'>Connect on LinkedIn</div>
                 </div>
             </div>
         );

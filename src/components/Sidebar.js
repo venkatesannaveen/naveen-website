@@ -17,11 +17,11 @@ class Sidebar extends React.Component {
                 <NavLink activeClassName='nav-link-active' className='nav-link' to='/photos'><p>Photos</p></NavLink>
                 <p class='nav-link'>Blog</p>
 
-                <a href='https://scholar.google.com/citations?user=7w_3668AAAAJ&hl=en' target='_blank' class='ai ai-google-scholar'></a>
-                <a href='https://www.linkedin.com/in/naveenvenkatesan/' target='_blank' class='fa fa-linkedin'></a>
-                <a href='https://medium.com/@naveen.venkatesan' target='_blank' class='fa fa-medium'></a>
-                <a href='https://github.com/naveenv92' target='_blank' class='fa fa-github-alt'></a>
-                <a href='mailto:naveen.venkatesan@gmail.com' target='_blank' class='fa fa-envelope-o'></a>
+                <a href='https://scholar.google.com/citations?user=7w_3668AAAAJ&hl=en' target='_blank' rel='noreferrer noopener' class='ai ai-google-scholar'></a>
+                <a href='https://www.linkedin.com/in/naveenvenkatesan/' target='_blank' rel='noreferrer noopener' class='fa fa-linkedin'></a>
+                <a href='https://medium.com/@naveen.venkatesan' target='_blank' rel='noreferrer noopener' class='fa fa-medium'></a>
+                <a href='https://github.com/naveenv92' target='_blank' rel='noreferrer noopener' class='fa fa-github-alt'></a>
+                <a href='mailto:naveen.venkatesan@gmail.com' target='_blank' rel='noreferrer noopener' class='fa fa-envelope-o'></a>
 
                 <p style={{'color': 'gray'}}>&copy; 2020 Naveen Venkatesan</p>
             </div>
