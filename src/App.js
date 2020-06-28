@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe';
 import Research from './components/Research';
 import Publications from './components/Publications';
 import Photos from './components/Photos';
+import Blog from './components/Blog';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
@@ -23,6 +24,7 @@ function App() {
             <Route path='/research' component={Research} />
             <Route path='/publications' component={Publications} />
             <Route path='/photos' component={Photos} />
+            <Route path='/blog' component={Blog} />
         </div>
     </Router>
   );
