@@ -9,11 +9,13 @@ import Publications from './components/Publications';
 import Photos from './components/Photos';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import ScrollToTop from 'react-router-scroll-top';
 
 function App() {
   return (
     <Router>
         <div class='content'>
+            <ScrollToTop />
             <Navbar />
             <Sidebar />
             <Route exact path='/' component={Home} />

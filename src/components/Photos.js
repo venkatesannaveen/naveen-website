@@ -19,7 +19,7 @@ class Photos extends React.Component {
                 </p>
 
                 <p class='section-text' style={{'marginTop':'20px'}}>
-                    If you would like to see more of my work, here is the link to my profile on 
+                    If you would like to see more of my work, here is the link to my profile on&nbsp;
                     <a href='https://unsplash.com/@naveenv92' target='_blank' rel='noreferrer noopener'>Unsplash</a>.
                 </p>
 
