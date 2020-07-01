@@ -148,30 +148,30 @@ class Resume extends React.Component {
 
                 <h2 class='resume-subtitle'>PROJECTS</h2>
                 <div class='resume-card'>
-                    <h3 class='resume-strong'>Failure Analysis Intern</h3>
-                    <p class='resume-text'>Western Digital Corporation | Summer 2014</p>
+                    <h3 class='resume-strong'>Python Science Tutorial</h3>
+                    <p class='resume-text'><a href='https://github.com/naveenv92/python-science-tutorial' target='_blank' rel='noreferrer noopener'>github.com/naveenv92/python-science-tutorial</a></p>
                     <ul>
                         <li class='resume-point'>
-                            Collected and indexed secondary ion mass spectrometry (ToF-SIMS) spectra of all components 
-                            in company manufactured hard disk drives
-                        </li>
-                        <li class='resume-point'>
-                            Generated database of spectra as future reference for engineering team to determine source of 
-                            drive failures
+                            Empower experimental scientists to use Python for data analysis and visualization 
+                            with online Jupyter notebook tutorials
                         </li>
                     </ul>
 
-                    <h3 class='resume-strong' style={{'marginTop':'20px'}}>Process Engineering Intern</h3>
-                    <p class='resume-text'>DuPont Industrial Biosciences | Summer 2013</p>
+                    <h3 class='resume-strong' style={{'marginTop':'20px'}}>COVID-19 Data Visualization</h3>
+                    <p class='resume-text'><a href='https://github.com/naveenv92/covid-19-visualization' target='_blank' rel='noreferrer noopener'>github.com/naveenv92/covid-19-visualization</a></p>
                     <ul>
                         <li class='resume-point'>
-                            Optimized feed flow rate and recycle streams in pilot-scale microfiltration unit to filter 
-                            out biomass from fermentation product and confirmed filtration efficiency with optical enzyme 
-                            assays
+                            Created visualizations of COVID-19 infections from JHU CSSE database &ndash; use 
+                            to predict instantaneous case doubling rates
                         </li>
+                    </ul>
+
+                    <h3 class='resume-strong' style={{'marginTop':'20px'}}>Synchrotron X-Ray Diffraction Software</h3>
+                    <p class='resume-text'><a href='https://github.com/naveenv92/xray-scattering-tools' target='_blank' rel='noreferrer noopener'>github.com/naveenv92/xray-scattering-tools</a></p>
+                    <ul>
                         <li class='resume-point'>
-                            Confirmed feasibility of pilot microfiltration unit allowing company to purchase a production-scale 
-                            unit
+                            Developed novel software to allow scientists to simulate synchrotron X-ray diffraction 
+                            patterns of materials
                         </li>
                     </ul>
                 </div>

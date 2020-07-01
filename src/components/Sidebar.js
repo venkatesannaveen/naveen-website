@@ -12,6 +12,7 @@ class Sidebar extends React.Component {
                 
                 <NavLink exact activeClassName='nav-link-active' className='nav-link' to='/'><p>Home</p></NavLink>
                 <NavLink activeClassName='nav-link-active' className='nav-link' to='/about'><p>About Me</p></NavLink>
+                <NavLink activeClassName='nav-link-active' className='nav-link' to='/resume'><p>Resume</p></NavLink>
                 <NavLink activeClassName='nav-link-active' className='nav-link' to='/research'><p>Research</p></NavLink>
                 <NavLink activeClassName='nav-link-active' className='nav-link' to='/publications'><p>Publications</p></NavLink>
                 <NavLink activeClassName='nav-link-active' className='nav-link' to='/photos'><p>Photos</p></NavLink>

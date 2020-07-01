@@ -27,6 +27,7 @@ class Navbar extends React.Component {
                 <div class='navbar-links' style={{'display': this.state.show ? '' : 'none'}}>
                     <Link to='/' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Home</div></Link>
                     <Link to='/about' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>About Me</div></Link>
+                    <Link to='resume' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Resume</div></Link>
                     <Link to='/research' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Research</div></Link>
                     <Link to='/publications' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Publications</div></Link>
                     <Link to='/photos' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Photos</div></Link>
