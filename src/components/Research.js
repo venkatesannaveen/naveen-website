@@ -5,6 +5,13 @@ import trmcPhoto from '../img/TRMC.png';
 import giwaxsPhoto from '../img/GIWAXS.png';
 
 class Research extends React.Component {
+    componentDidMount() {
+        let imageList = [researchPhoto, trmcPhoto, giwaxsPhoto]
+        imageList.forEach((image) => {
+            new Image().src = image
+        });
+    }
+    
     render () {
         return (
             <div class='content-container'>

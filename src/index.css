@@ -290,6 +290,19 @@ code {
     opacity: 0.8;
 }
 
+.blog-content {
+    vertical-align: top;
+    width: 80%;
+    display: inline-block;
+}
+
+.blog-pic {
+    vertical-align: bottom;
+    display: inline-block;
+    overflow: hidden;
+    width: 18%;
+}
+
 @media (min-width: 950px) {
     .navbar-container {
         display: none;
