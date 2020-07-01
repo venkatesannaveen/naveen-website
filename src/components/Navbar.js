@@ -30,7 +30,7 @@ class Navbar extends React.Component {
                     <Link to='/research' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Research</div></Link>
                     <Link to='/publications' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Publications</div></Link>
                     <Link to='/photos' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Photos</div></Link>
-                    <div class='navbar-item'>Blog</div>
+                    <Link to='/blog' className='nav-link-top'><div class='navbar-item' onClick={this.toggleMenu}>Blog</div></Link>
                 </div>
             </div>
         );

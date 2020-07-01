@@ -94,6 +94,30 @@ class Blog extends React.Component {
                     summary='Plotting heatmaps, contour plots, and 3D plots with Python'
                     blogpic='https://miro.medium.com/max/864/1*CWmrRqBA28RIJOR1LUagQg.png'
                 />
+                <BlogCard
+                    link='https://towardsdatascience.com/basic-curve-fitting-of-scientific-data-with-python-9592244a2509'
+                    date='April 11, 2020'
+                    title='Basic Curve Fitting of Scientific Data with Python'
+                    publication='Towards Data Science'
+                    summary='A basic guide to using Python to fit non-linear functions to experimental data points'
+                    blogpic='https://miro.medium.com/max/784/1*vN3Fuen7j4IJWNq3yuZzbQ.png'
+                />
+                <BlogCard
+                    link='https://towardsdatascience.com/an-introduction-to-making-scientific-publication-plots-with-python-ea19dfa7f51e'
+                    date='April 1, 2020'
+                    title='An Introduction to Making Scientific Publication Plots with Python'
+                    publication='Towards Data Science'
+                    summary='An introduction to how to use Python to plot data for scientific publications'
+                    blogpic='https://miro.medium.com/max/808/1*3hgnupbwTYNkWsf44a7QAw.png'
+                />
+                <BlogCard
+                    link='https://medium.com/@naveen.venkatesan/visualizing-covid-19-data-29d05bb9c982'
+                    date='March 29, 2020'
+                    title='Visualizing COVID-19 Data'
+                    publication='Self-published'
+                    summary='Assessing the impact and spread of COVID-19 across the world'
+                    blogpic='https://miro.medium.com/max/1400/1*gjOgvP7izM93lmXdI88Tww.png'
+                />
                 
             </div>
         );

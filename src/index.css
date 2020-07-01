@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+a {
+    color: #3232cc;
+}
+
 .navbar-container {
     position: fixed;
     z-index: 2;
@@ -177,7 +181,7 @@ code {
     margin-top: 5vh;
     margin-left: 10vw;
     margin-right: 10vw;
-    height: 25vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,6 +210,7 @@ code {
     transform: scale(1.03);
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 .home-button:active {
@@ -324,13 +329,25 @@ code {
         width: 60vw;
     }
 
+    .home-title {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .home-subtitle {
+        margin-left: 10%;
+        width: 80%;
+    }
+
     .home-button-div {
         height: 7vh;
         flex-direction: row;
+        margin-left: 20vw;
+        margin-right: 20vw;
     }
 
     .home-button {
-        width: 35%;
+        width: 50%;
     }
 
     .banner-pic {
