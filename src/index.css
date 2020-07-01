@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Open Sans, Muli, sans-serif;
+    font-family: Muli, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -193,6 +193,7 @@ a {
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
+    text-decoration: none;
     line-height: 5vh;
     vertical-align: middle;
     width: 50%;
@@ -226,21 +227,62 @@ a {
     opacity: 0.9;
 }
 
+.resume-title {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.resume-subtitle {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    color: rgb(100, 100, 100);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.resume-card {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5vh;
+    border-top: 1px solid rgba(100, 100, 100, 0.6);
+}
+
+.resume-strong {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.resume-text {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.resume-point {
+    margin-top: 10px;
+}
+
 .section-title {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 2rem;
     font-weight: 800;
 }
 
 .section-subtitle {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
 .section-subsubtitle {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -250,6 +292,8 @@ a {
     margin-right: 5%;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .pub-card {
@@ -354,6 +398,21 @@ a {
         width: 80%;
         display: block;
         margin: auto;
+    }
+
+    .resume-title {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .resume-subtitle {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .resume-card {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .section-title {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 class Home extends React.Component {
@@ -25,7 +26,7 @@ class Home extends React.Component {
                 </p>
 
                 <div class='home-button-div'>
-                    <div class='home-button' onClick={()=> window.open('https://www.linkedin.com/in/naveenvenkatesan/', '_blank')}>Resume</div>
+                    <Link to='/resume' class='home-button'><div>Resume</div></Link>
                     <div class='home-button' onClick={()=> window.open('https://www.linkedin.com/in/naveenvenkatesan/', '_blank')}>LinkedIn</div>
                 </div>
             </div>
