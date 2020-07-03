@@ -14,6 +14,14 @@ class Blog extends React.Component {
                 <p class='section-text'>
                     I write for several publications on Medium and am also a writer on freeCodeCamp. Click any of the entries for a link to the original blog post.
                 </p>
+                <BlogCard
+                    link='https://towardsdatascience.com/an-introduction-to-making-dynamic-and-interactive-plots-with-d3-a9e859413c5a'
+                    date='July 3, 2020'
+                    title='An Introduction to Making Dynamic and Interactive Plots with D3'
+                    publication='Towards Data Science'
+                    summary='Make your scientific data come alive with D3.js'
+                    blogpic='https://miro.medium.com/max/1182/1*I6JET3FAdkEgRPDkWkAj_Q.gif'
+                />
                 <BlogCard 
                     link='https://towardsdatascience.com/make-a-simple-nba-shot-chart-with-python-e5d70db45d0d'
                     date='June 17, 2020'
