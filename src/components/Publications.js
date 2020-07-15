@@ -15,6 +15,14 @@ class Publications extends React.Component {
                 Link to <a href='https://scholar.google.com/citations?user=7w_3668AAAAJ&hl=en' target='_blank' rel='noreferrer noopener'>Google Scholar profile</a>.</p>
                 <h2 class='section-subtitle'>2020</h2>
                 <PubCard 
+                    title='Even-parity self-trapped excitons lead to magnetic dipole radiation in two-dimensional lead halide perovskites'
+                    authors={<span>R. A. DeCrescent, X. Du, R. M. Kennard, <strong>N. R. Venkatesan</strong>, 
+                    C. J. Dahlman, M. L. Chabinyc, J. A. Schuller</span>}
+                    journal='ACS Nano'
+                    link='https://pubs.acs.org/doi/10.1021/acsnano.0c03783'
+                />
+
+                <PubCard 
                     title='Bright magnetic dipole radiation from two-dimensional lead-halide perovskites' 
                     authors={<span>R. A. DeCrescent, <strong>N. R. Venkatesan</strong>, C. J. Dahlman, R. M. Kennard,
                     X. Zhang, W. Li, X. Du, M. L. Chabinyc, R. Zia, J. A. Schuller</span>}
