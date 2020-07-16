@@ -51,7 +51,7 @@ class Resume extends React.Component {
 
                     <h3 class='resume-strong' style={{'marginTop':'20px'}}>Programming</h3>
                     <p class='resume-text'>
-                        Python, MATLAB, Java, Javascript, HTML, CSS, SQL
+                        Python, MATLAB, Java, Javascript, React, HTML, CSS, SQL
                     </p>
 
                     <h3 class='resume-strong' style={{'marginTop':'20px'}}>Data Science</h3>
@@ -148,7 +148,15 @@ class Resume extends React.Component {
 
                 <h2 class='resume-subtitle'>PROJECTS</h2>
                 <div class='resume-card'>
-                    <h3 class='resume-strong'>Python Science Tutorial</h3>
+                    <h3 class='resume-strong'>Synchrotron X-Ray Diffraction Software</h3>
+                    <p class='resume-text'><a href='https://naveenv92.github.io/xray-scattering-tools/' target='_blank' rel='noreferrer noopener'>naveenv92.github.io/xray-scattering-tools</a></p>
+                    <ul>
+                        <li class='resume-point'>
+                            Developed novel software to allow scientists to simulate synchrotron X-ray diffraction 
+                            patterns of materials
+                        </li>
+                    </ul>
+                    <h3 class='resume-strong' style={{'marginTop':'20px'}}>Python Science Tutorial</h3>
                     <p class='resume-text'><a href='https://github.com/naveenv92/python-science-tutorial' target='_blank' rel='noreferrer noopener'>github.com/naveenv92/python-science-tutorial</a></p>
                     <ul>
                         <li class='resume-point'>
@@ -163,15 +171,6 @@ class Resume extends React.Component {
                         <li class='resume-point'>
                             Created visualizations of COVID-19 infections from JHU CSSE database &ndash; use 
                             to predict instantaneous case doubling rates
-                        </li>
-                    </ul>
-
-                    <h3 class='resume-strong' style={{'marginTop':'20px'}}>Synchrotron X-Ray Diffraction Software</h3>
-                    <p class='resume-text'><a href='https://github.com/naveenv92/xray-scattering-tools' target='_blank' rel='noreferrer noopener'>github.com/naveenv92/xray-scattering-tools</a></p>
-                    <ul>
-                        <li class='resume-point'>
-                            Developed novel software to allow scientists to simulate synchrotron X-ray diffraction 
-                            patterns of materials
                         </li>
                     </ul>
                 </div>
