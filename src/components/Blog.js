@@ -15,6 +15,14 @@ class Blog extends React.Component {
                     I write for several publications on Medium and am also a writer on freeCodeCamp. Click any of the entries for a link to the original blog post.
                 </p>
                 <BlogCard
+                    link='https://towardsdatascience.com/create-landing-pages-for-your-projects-with-github-pages-70cd2bd94425'
+                    date='July 16, 2020'
+                    title='Create Landing Pages For Your Projects With GitHub Pages'
+                    publication='Towards Data Science'
+                    summary='Show off your work with a custom project website'
+                    blogpic='https://miro.medium.com/max/4800/0*ujT5Sy1hLzzP7bp-'
+                />
+                <BlogCard
                     link='https://towardsdatascience.com/an-introduction-to-making-dynamic-and-interactive-plots-with-d3-a9e859413c5a'
                     date='July 3, 2020'
                     title='An Introduction to Making Dynamic and Interactive Plots with D3'

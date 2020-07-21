@@ -96,7 +96,7 @@ class Resume extends React.Component {
                             resulting in 1 journal publication
                         </li>
                         <li class='resume-point'>
-                            Co-authored 10 peer-reviewed journal articles (4 as lead author) and gave 5 conference presentations
+                            Co-authored 11 peer-reviewed journal articles (4 as lead author) and gave 5 conference presentations
                         </li>
                     </ul>
 
