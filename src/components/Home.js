@@ -22,7 +22,7 @@ class Home extends React.Component {
                 </p>
 
                 <p class='section-text' style={{'margin-top':'20px', 'textAlign':'center'}}>
-                    <strong>Latest:</strong> Article on create project landing page featured in <a href='https://towardsdatascience.com/create-landing-pages-for-your-projects-with-github-pages-70cd2bd94425' target='_blank' rel='noreferrer noopener'>Towards Data Science on Medium</a>
+                    <strong>Latest:</strong> Article on creating project landing pages featured in <a href='https://towardsdatascience.com/create-landing-pages-for-your-projects-with-github-pages-70cd2bd94425' target='_blank' rel='noreferrer noopener'>Towards Data Science on Medium</a>
                 </p>
 
                 <div class='home-button-div'>
