@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 class Resume extends React.Component {
     render () {
         return (
-            <div class='content-container'>
+            <div class='content-container' style={{'font-family':'Muli'}}>
                 <Helmet>
                     <title>Naveen Venkatesan | Resume</title>    
                 </Helmet>

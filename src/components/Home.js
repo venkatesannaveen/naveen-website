@@ -10,8 +10,8 @@ class Home extends React.Component {
                     <title>Naveen Venkatesan | Home</title>    
                 </Helmet>
 
-                <h1 class='home-title' style={{'color': '#cc7000'}}>Hi, I'm Naveen!</h1>
-                <h3 class='home-subtitle' style={{'color': '#0081cc'}}>Materials Scientist | Data Enthusiast | Writer</h3>
+                <h1 class='home-title' style={{'color': '#cc7000', 'font-family':'Muli'}}>Hi, I'm Naveen!</h1>
+                <h3 class='home-subtitle' style={{'color': '#0081cc', 'font-family':'Muli'}}>Materials Scientist | Data Enthusiast | Writer</h3>
                 
                 <p class='section-text' style={{'textAlign':'center'}}>
                     I am a highly-motivated researcher who is passionate about using data 
@@ -22,7 +22,7 @@ class Home extends React.Component {
                 </p>
 
                 <p class='section-text' style={{'margin-top':'20px', 'textAlign':'center'}}>
-                    <strong>Latest:</strong> Article on creating project landing pages featured in <a href='https://towardsdatascience.com/create-landing-pages-for-your-projects-with-github-pages-70cd2bd94425' target='_blank' rel='noreferrer noopener'>Towards Data Science on Medium</a>
+                    <strong>Latest:</strong> Article on creating project landing pages featured in <a style={{'textDecoration':'none'}} href='https://towardsdatascience.com/create-landing-pages-for-your-projects-with-github-pages-70cd2bd94425' target='_blank' rel='noreferrer noopener'>Towards Data Science</a>
                 </p>
 
                 <div class='home-button-div'>

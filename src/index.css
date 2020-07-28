@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Nunito, Muli, sans-serif;
+    font-family: Source Serif Pro, Muli, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -61,6 +61,7 @@ a {
 
 
 .sidebar-container {
+    font-family: Muli;
     position: fixed;
     top: 0;
     left: -300px;
@@ -190,6 +191,7 @@ a {
 
 .home-button {
     display: inline;
+    font-family: Muli;
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
@@ -266,6 +268,7 @@ a {
 }
 
 .section-title {
+    font-family: Muli;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 2rem;
@@ -273,6 +276,7 @@ a {
 }
 
 .section-subtitle {
+    font-family: Muli;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 1.6rem;
@@ -280,6 +284,7 @@ a {
 }
 
 .section-subsubtitle {
+    font-family: Muli;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 1.2rem;
@@ -292,11 +297,12 @@ a {
     margin-right: 5%;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: 17px;
     line-height: 1.5;
 }
 
 .pub-card {
+    font-family: Muli;
     transition: transform 0.3s ease-in;
     padding: 10px;
     margin-left: 5%;
@@ -340,6 +346,7 @@ a {
 }
 
 .blog-content {
+    font-family: Muli;
     vertical-align: top;
     width: 80%;
     display: inline-block;

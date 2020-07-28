@@ -12,7 +12,7 @@ class Publications extends React.Component {
 
                 <h1 class='section-title'>Publications</h1>
                 <p class='section-text'>Click on any of the entries for a link to the publication. 
-                Link to <a href='https://scholar.google.com/citations?user=7w_3668AAAAJ&hl=en' target='_blank' rel='noreferrer noopener'>Google Scholar profile</a>.</p>
+                Link to <a style={{'textDecoration':'none'}} href='https://scholar.google.com/citations?user=7w_3668AAAAJ&hl=en' target='_blank' rel='noreferrer noopener'>Google Scholar profile</a>.</p>
                 <h2 class='section-subtitle'>2020</h2>
                 <PubCard 
                     title='Even-parity self-trapped excitons lead to magnetic dipole radiation in two-dimensional lead halide perovskites'
