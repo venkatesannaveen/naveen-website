@@ -18,10 +18,11 @@ class Research extends React.Component {
                 <Helmet>
                 <title>Naveen Venkatesan | Research</title>
                 </Helmet>
-
-                <h1 class='section-title'>Research</h1>
                 
-                <img src={researchPhoto} class='banner-pic' />
+                <div style={{'position':'relative', 'textAlign':'center', 'color':'black'}}>
+                    <img src={researchPhoto} class='banner-pic' />
+                    <div class='centered-text'>Research</div>
+                </div>
                 
                 <h2 class='section-subtitle'>Optoelectronic properties of layered perovskites</h2>
                 <p class='section-text'>

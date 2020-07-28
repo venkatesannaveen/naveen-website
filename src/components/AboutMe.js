@@ -11,9 +11,10 @@ class AboutMe extends React.Component {
                 <title>Naveen Venkatesan | About Me</title>
                 </Helmet>
                 
-                <h1 class='section-title'>About Me</h1>
-                
-                <img src={aboutPhoto} class='banner-pic' />
+                <div style={{'position':'relative', 'textAlign':'center', 'color':'black'}}>
+                    <img src={aboutPhoto} class='banner-pic' />
+                    <div class='centered-text'>About Me</div>
+                </div>
                 
                 <h2 class='section-subtitle'>My Story</h2>
                 <p class='section-text'>
