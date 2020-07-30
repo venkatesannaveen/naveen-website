@@ -22,7 +22,7 @@ class Home extends React.Component {
                 </p>
 
                 <p class='section-text' style={{'margin-top':'20px', 'textAlign':'center'}}>
-                    <strong>Latest:</strong> Article on creating project landing pages featured in <a style={{'textDecoration':'none'}} href='https://towardsdatascience.com/create-landing-pages-for-your-projects-with-github-pages-70cd2bd94425' target='_blank' rel='noreferrer noopener'>Towards Data Science</a>
+                    <strong>Latest:</strong> Article on using <code>pylustrator</code> <a style={{'textDecoration':'none'}} href='https://towardsdatascience.com/generate-easily-reproducible-scientific-figures-with-pylustrator-9426292e07a4' target='_blank' rel='noreferrer noopener'>Towards Data Science</a>
                 </p>
 
                 <div class='home-button-div'>
